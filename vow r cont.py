@@ -3,8 +3,8 @@ alphabets=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','
 if ch in alphabets:
 	vowel=['a','e','i','o','u','A','E','I','O','U']
 	if ch in vowel:
-		print("vowel")
+		print("Vowel")
 	else:
-		print("consonant")
+		print("Consonant")
 else:
-	print("invalid")
+	print("Invalid")

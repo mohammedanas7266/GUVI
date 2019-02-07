@@ -1,8 +1,10 @@
-l = input("Input a letter of the alphabet: ")
-
-if l in ('a', 'e', 'i', 'o', 'u'):
-	print("%s is a vowel." % l)
-elif l == 'y':
-	print("Sometimes letter y stand for vowel, sometimes stand for consonant.")
+ch=input("")
+alphabets=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+if ch in alphabets:
+	vowel=['a','e','i','o','u','A','E','I','O','U']
+	if ch in vowel:
+		print("vowel")
+	else:
+		print("consonant")
 else:
-	print("%s is a consonant." % l) 
+	print("invalid")

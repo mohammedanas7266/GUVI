@@ -1,4 +1,4 @@
-#palin
+#palindrm
 num = int(input())
 temp = num
 rev = 0
